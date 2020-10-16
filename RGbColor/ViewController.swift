@@ -9,9 +9,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var vIewOutlet: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        vIewOutlet.backgroundColor = UIColor(red: 0, green: 10, blue: 0, alpha: 1)
     }
 
 
